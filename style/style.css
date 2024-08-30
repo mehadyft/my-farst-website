@@ -159,36 +159,64 @@ skill-description {
 /* resume-section-style */
 
 .resume-colume-titel {
-    color: #474747;
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .resume-container {
-    display: flex;
-    gap: 70px;
-  }
-  .resume-item-insttute {
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 0;
-  }
-  .resume-item-titel {
-    color: #474747;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  .resume-item-insttute,
-  .resume-item-description {
-    color: #757575;
-  }
-  .resume-container hr {
-    margin: 30px 0;
-  }
-  .cv {
-    margin-top: 50px;
-    color: #fff;
-  }
-  .download-cv {
-    text-align: center;
-  }
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+.resume-item-insttute {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume-item-titel {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-insttute,
+.resume-item-description {
+  color: #757575;
+}
+.resume-container hr {
+  margin: 30px 0;
+}
+.cv {
+  margin-top: 50px;
+  color: #fff;
+}
+.download-cv {
+  text-align: center;
+}
+/* footer styles */
+footer {
+  margin-top: 100px;
+  gap: 100px;
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.social-link a {
+  margin-left: 20px;
+}
+footer .section-description {
+  text-align: start;
+}
+
+.footer-column {
+  width: 50%;
+}
+.contact .input,
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border: 0;
+  border-radius: 5px;
+}
