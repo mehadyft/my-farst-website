@@ -54,3 +54,65 @@ nav ul li a {
   text-decoration: none;
   color: #474747;
 }
+/* _______________header related________________ */
+.header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.banner .banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner .banner-titel {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  margin-bottom: 30px;
+}
+.btn2 {
+  margin-left: 30px;
+  background: none;
+  border: 2px solid #fd6e0a;
+  color: #000;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn2:hover {
+  margin-left: 30px;
+  background: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  color: #fff;
+}
+.btn1 {
+  background: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  color: #fff;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn1:hover {
+  background: none;
+  border: 2px solid #fd6e0a;
+  color: #000;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  gap: 163px;
+  justify-content: space-between;
+}
+.banner .profile {
+  width: 500px;
+}
