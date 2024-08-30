@@ -156,3 +156,39 @@ main section {
 skill-description {
   color: #757575;
 }
+/* resume-section-style */
+
+.resume-colume-titel {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .resume-container {
+    display: flex;
+    gap: 70px;
+  }
+  .resume-item-insttute {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .resume-item-titel {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .resume-item-insttute,
+  .resume-item-description {
+    color: #757575;
+  }
+  .resume-container hr {
+    margin: 30px 0;
+  }
+  .cv {
+    margin-top: 50px;
+    color: #fff;
+  }
+  .download-cv {
+    text-align: center;
+  }
