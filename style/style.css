@@ -57,14 +57,10 @@ nav ul li a {
 /* _______________header related________________ */
 .header {
   background: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
-}
-.banner {
-  background-image: url(../images/developer.png);
-  background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom right, top left;
 }
 .banner .banner-greeting {
   font-size: 45px;
