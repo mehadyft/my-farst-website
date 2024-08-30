@@ -116,3 +116,43 @@ nav ul li a {
 .banner .profile {
   width: 500px;
 }
+/* ______________________________main_________________________ */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-bottom: 130px;
+}
+
+/* ______________________________about_________________________ */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+/* skills related css */
+
+#what-i-do-description {
+  margin: 30px 150px;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+skill-description {
+  color: #757575;
+}
